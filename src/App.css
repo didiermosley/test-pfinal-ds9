@@ -1,0 +1,15 @@
+:root{
+  --gradient: linear-gradient(to top, rgba(255,234,0,.7),rgba(230,38,3,.8));
+  --bg-img: url("https://as2.ftcdn.net/v2/jpg/02/35/64/01/1000_F_235640136_7vG4knV8uqZuFiCuWzeC03UBUAnBZi2X.jpg");
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.cont-bg{
+  background: rgb(230,38,3);
+  background:var(--gradient), var(--bg-img);
+}
